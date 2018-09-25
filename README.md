@@ -9,5 +9,5 @@ The data was downloaded from the Dutch Bureau of Statistics at [statline.cbs.nl]
 
 
 ## Getting started
-- Clone the **data** and **R** folders into a project folder.
-- Run R/analysis.R.
+- Clone the **data** and **scripts** folders into a project folder.
+- Run clean.R to set up the project structure.
