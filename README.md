@@ -16,4 +16,4 @@ The data was downloaded from the Dutch Bureau of Statistics at [statline.cbs.nl]
 - Run scripts/datahandling.py
 - Run analysis.R
 
-The resulting images will be in the **figs/** folder. This is more text.
+The resulting images will be in the **figs/** folder.
