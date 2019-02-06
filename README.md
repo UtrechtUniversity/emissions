@@ -1,19 +1,133 @@
-# Emissions project
+# Emissions in The Netherlands in 2030
 
-This is an example project to demonstrate project management for a course on reproducible coding.
+Emissions of CO2 and NOx play a key role in global warming. In this project,
+we aim to predict the CO2 emission and NOx emission in The Netherlands in
+2030. This project is one of the demonstration projects of the workshop
+[Computationally Reproducibility](https://github.com/UtrechtUniversity
+/workshop-computational-reproducibility) by the [Utrecht
+University](https://www.uu.nl). The workshop is organised by [Research Data
+Management Support](https://www.uu.nl/en/research/research-data-management).
 
-## Data source
-The data was downloaded from the Dutch Bureau of Statistics at [statline.cbs.nl](http://statline.cbs.nl/Statweb/selection/?VW=T&DM=SLEN&PA=7063ENG&D1=a&D2=a&D3=a&LA=EN&HDR=T&STB=G1,G2). In 'topics', we selected greenhouse gases only (CO2, N2O, and CH4), but selected all sources and periods (1980-2017). The data was downloaded as a csv.
 
-**Note** that Statline has been renewed and the above link may no longer function. In this case, visit [opendata.cbs.nl](https://opendata.cbs.nl/statline/#/CBS/en/dataset/7063eng/table?ts=1537862508225) and perform the described selection. We recommend comparing the header and footer of the resulting document with the input csv file in the data folder, to ensure they match.
+## Getting Started
+
+This section contains instructions on running the analyses for this project. 
+
+### Prerequisites
+
+The code in this repository is written with R. If you do not have R installed,
+download it from the website of [R](https://www.r-project.org/) and follow the
+installation instructions. One can use RStudio for an intuitive and fast
+developement. Check out the website of RStudio (https://www.rstudio.com/) to
+download and install the program.
+
+Using RStudio:
+
+- Open install.R
+- Run the script (CTRL+SHIFT+ENTER)
+
+Using the command line:
+
+```
+Rscript install.R
+```
+
+### Data
+
+The data was downloaded from the Dutch Bureau of Statistics at [statline.cbs.n
+l](http://statline.cbs.nl/Statweb/selection/?VW=T&DM=SLEN&PA=7063ENG&D1=a&D2=a
+&D3=a&LA=EN&HDR=T&STB=G1,G2). In 'topics', we selected greenhouse gases only
+(CO2, N2O, and CH4), but selected all sources and periods (1980-2017). The
+data was downloaded as a csv.
+
+**Note** that Statline has been renewed and the above link may no longer function. In
+this case, visit [opendata.cbs.nl](https://opendata.cbs.nl/statline/#/CBS/en/d
+ataset/7063eng/table?ts=1537862508225) and perform the described selection. We
+recommend comparing the header and footer of the resulting document with the
+input csv file in the data folder, to ensure they match.
 
 
-## Getting started
-- Clone the **data/** and **scripts/** folders into a project folder.
-- Run clean.R to set up the project structure.
+### Run the analysis
 
 ## Running the project
 - Run scripts/datahandling.py
 - Run analysis.R
 
 The resulting images will be in the **figs/** folder.
+
+
+## Running the tests
+
+This project contains no tests at this moment.
+
+## Contributing
+
+Any remarks and contributions can be proposed in the issue tracker
+https://github.com/UtrechtUniversity/emissions/issues. 
+
+## Versioning
+
+This project makes use of versions control through Git and is hosted on
+Github. For the versions available, see the [tags on this
+repository](https://github.com/UtrechtUniversity/emissions/tags).
+
+## Citation 
+
+The content of this repository open source. If you use this project for one of
+your research articles, please cite our work:
+
+```
+@misc{foo2010,
+  author = "Vreede, B and De Bruin, J",
+  journal = "J.P.B.",
+  year = 2010,
+  title = "Where the wild things are.",
+  doi = {10.1.1/jpb001},
+  url = {http://dx.doi.org/10.1.1/jpb001}
+}
+```
+
+## Authors
+
+* **Barbara Vreede** - [bvreede](https://github.com/bvreede)
+* **Jonathan de Bruin** - [J535D165](https://github.com/J535D165)
+
+See also the list of
+[contributors](https://github.com/your/project/contributors) who participated
+in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* [Utrecht University - Research Data Management Support](https://www.uu.nl/en/research/research-data-management)
+* [Big list of people and their links](www.example.org/)
+
+## Disclaimer
+
+This project is one of the demonstration projects of the workshop
+[Computationally Reproducibility](https://github.com/UtrechtUniversity
+/workshop-computational-reproducibility) by the [Utrecht
+University](https://www.uu.nl). The workshop is organised by [Research Data
+Management Support](https://www.uu.nl/en/research/research-data-management).
+The content of the project is for illustration purposes only. 
+
+Research projects and computational reproducible research can be debated. This
+project provides one of the solutions to setting up, managing and publishing a
+research project. We know that there is much more to share on this topic.
+Unfortunately, it is not possible to cover everything. Nevertheless, we
+appreciate all feedback on this demonstration project and the workshop.
+
+
+
+
+
+
+
+
+
+
+
+
