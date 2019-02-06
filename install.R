@@ -11,6 +11,7 @@
 
 # install packages for data manipulation
 install.packages('dplyr')
+install.packages('stringr')
 
 # install packages for visualisation
 install.packages('ggplot2')
