@@ -98,7 +98,7 @@ This project is licensed under the Unlicense - see the [LICENSE.md](LICENSE.md) 
 ## Acknowledgments
 
 * [Utrecht University - Research Data Management Support](https://www.uu.nl/en/research/research-data-management)
-* [Big list of people and their links](www.example.org/)
+* [Big list of people and their links](http://example.org/)
 
 ## Disclaimer
 
