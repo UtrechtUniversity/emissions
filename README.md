@@ -33,9 +33,10 @@ Rscript install.R
 
 ### Data
 
-The data was downloaded from the Dutch Bureau of Statistics at [statline.cbs.nl](http://statline.cbs.nl/Statweb/selection/VW=T&DM=SLEN&PA=7063ENG&D1=a&D2=a&D3=a&LA=EN&HDR=T&STB=G1,G2). In 'topics', we selected greenhouse gases only
-(CO2, N2O, and CH4), but selected all sources and periods (1980-2017). The
-data was downloaded as a csv.
+The data [data/Emissions_to_air__ro_190918144657.csv](data/Emissions_to_air__ro_190918144657.csv) 
+was downloaded on September 19, 2018 from the Dutch Bureau of Statistics at [statline.cbs.nl](http://statline.cbs.nl/Statweb/selection/VW=T&DM=SLEN&PA=7063ENG&D1=a&D2=a&D3=a&LA=EN&HDR=T&STB=G1,G2). In 'topics', we selected greenhouse
+gases only (CO2, N2O, and CH4), but selected all sources and periods
+(1980-2017). The data was downloaded as a csv.
 
 **Note** that Statline has been renewed and the above link may no longer function. In
 this case, visit [opendata.cbs.nl](https://opendata.cbs.nl/statline/#/CBS/en/dataset/7063eng/table?ts=1537862508225) and perform the described selection. We
@@ -74,9 +75,9 @@ your research articles, please cite our work:
 ```
 @misc{foo2010,
   author = "Vreede, B and De Bruin, J",
-  journal = "J.P.B.",
-  year = 2010,
-  title = "Where the wild things are.",
+  journal = "N/A",
+  year = 2019,
+  title = "N/A",
   doi = {10.1.1.not.really.a.doi},
   url = {http://dx.doi.org/10.1.1.not.really.a.doi}
 }
@@ -93,7 +94,7 @@ in this project.
 
 ## License
 
-This project is licensed under the Unlicense - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
