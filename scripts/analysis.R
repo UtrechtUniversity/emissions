@@ -13,7 +13,11 @@
 # import required libraries
 library(readr)
 library(dplyr)
+
 library(ggplot2)
+
+library(forecast) # for stats and forecasting
+
 
 # create the folders to store the results
 dir.create(
@@ -43,8 +47,6 @@ data_totals <- data %>%
 emissions_plot + ggsave(file.path("output", "figs", "CO2_total.png"))
 
 # estimate the emission for 2030
-
-library(forecast)
 
 # convert the data into a time series.
 ts_co2_emissions <- data_totals %>% 
