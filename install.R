@@ -9,7 +9,8 @@
 # for the project.
 #
 
-# install packages for data manipulation
+# install packages for data handling and manipulation
+install.packages('readr')
 install.packages('dplyr')
 install.packages('stringr')
 
@@ -17,3 +18,4 @@ install.packages('stringr')
 install.packages('ggplot2')
 
 # install packages for statistics
+install.packages('forecast')
