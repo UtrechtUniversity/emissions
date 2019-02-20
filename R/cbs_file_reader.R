@@ -14,7 +14,7 @@ library(readr)
 read_cbs_statline <- function(file, col_names=FALSE, skip_head=NULL, skip_tail=1){
   
   # Read all lines of the file.
-  data_lines <- read_lines(path_to_cbs_emissions_data)
+  data_lines <- read_lines(file)
   
   # Skip the lines with the header information.
   if (!is.null(skip_head)){
