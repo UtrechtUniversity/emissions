@@ -51,5 +51,8 @@ data_emissions$Period = parse_integer(
 #     Export cleaned data 'data_emissions' to output folder
 # ------------------------------------------------------------------------\
 
+# create the output directory if not exists
+dir.create('output', showWarnings = F)
+
 filepath_output_data <- file.path("output", "emissions.csv")
 write_csv2(data_emissions, filepath_output_data)
