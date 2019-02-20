@@ -11,7 +11,7 @@
 
 library(stringr)
 
-source("R/cbs_file_reader.R")
+source("scripts/R/cbs_file_reader.R")
 
 
 # ------------------------------------------------------------------------\
