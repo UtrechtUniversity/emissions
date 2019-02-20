@@ -46,11 +46,11 @@ input csv file in the data folder, to ensure they match.
 
 ### Run the analysis
 
-## Running the project
-- Run `scripts/datahandling.py`
-- Run `analysis.R`
 
-The resulting images will be in the **figs/** folder.
+- Run `scripts/data_cleaning.R`
+- Run `scripts/analysis.R`
+
+The results, datasets and figures are stored in the `/output` folder.
 
 
 ## Running the tests
